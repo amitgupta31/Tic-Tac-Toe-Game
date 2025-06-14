@@ -65,7 +65,7 @@ const enableBoxes = () => {
 };
 const showWinner = (winner) => {
     console.log("winner detected");
-    msg.innerText=`Congratulations! Winner is Amit`;
+    msg.innerText=`Congratulations! Winner is ${winner}`;
     msgContainer.classList.remove("hide");
     disableBoxes();
 };
